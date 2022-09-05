@@ -2,58 +2,63 @@
 <html lang="es">
 
 <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Taller de Linux</title>
-        <link rel="shortcut icon" href="img/UABC.png" type="image/x-icon">
-        <link rel="stylesheet" href="estilo.css">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+	<!-- Metadatos -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Properties -->
+	<title>Taller de Linux</title>
+	<!-- Resources -->
+	<link rel="shortcut icon" href="img/UABC.png" type="image/x-icon">
+	<!-- Ruta Relativa -->
+	<link rel="stylesheet" href="./estilo.css">
+	<!-- Ruta Absoluta -->
+	<!-- <link rel="stylesheet" href="http://localhost:50686/estilo.css"> -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
 </head>
 
 <body>
-        <header>
-                <section>
-                        <h2 class="vacio">jjj</h2>
-                        <h1 class="titulo">Taller de Linux</h1>
-                </section>
-                <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150"
-                                preserveAspectRatio="none" style="height: 100%; width: 100%;">
-                                <path d="M0.00,49.99 C52.26,121.88 395.37,-28.13 503.72,67.59 L500.00,150.00 L0.00,150.00 Z"
-                                        style="stroke: none; fill: white;"></path>
-                        </svg></div>
-        </header>
-        <main>
-                <sections>
-                        <h2 class="TituloInfoAlumno">Información Del Alumno</h2>
-                        <div class="FotoMia">
-                                <img src="img/io transparente.png" width="450" height="480"> 
-                                
-                        </div>
-                        <div>
-                                <div class="InfoCompleta">
-                                        <h2 class="Info"><span>▢</span>Estudiante de Lic. en Sistemas Computacionales</h2>
-                                        <h2 class="Info"><span>▢</span>Nombre: Hector Ethan Lugo Mendoza</h2>
-                                        <h2 class="Info"><span>▢</span>Matricula: 1192271</h2>
-                                        <h2 class="Info"><span>▢</span>Grupo: 101</h2>
-                                        <h2 class="Info"><span>▢</span>Correo de Contacto: hector.lugo@uabc.edu.mx</h2>
-                                </div>
-                        </div>
-                </sections>
-                <section class="Practicas de Taller de Linux">
-                        <div class="Acceso a Practicas">
-                                <h2 class="TituloPracticasDeLinux"><center>Practicas de Linux</center></h2>
-                                <div class="Container">
-                                        <img src="img/Pinguinito De Linux.png" width="auto" height="auto">
-                                </div>
-                                        <div>
-                                                <nav>
-                                                         <a href="PDL.html"><h2 class="Boton">Practicas De Linux</h2></a>
-                                                 </nav>   
-                                         </div>
-                        </div>
-                </section>
-        </main>
+	<header class="header">
+		<section>
+			<h1 class="titulo">Taller de Linux</h1>
+		</section>
+		<div class="wave" style="height: 150px; overflow: hidden;">
+			<svg viewBox="0 0 500 150" preserveAspectRatio="none"
+				style="height: 100%; width: 100%;">
+				<path d="M0.00,49.99 C52.26,121.88 395.37,-28.13 503.72,67.59 L500.00,150.00 L0.00,150.00 Z"
+					style="stroke: none; fill: white;"></path>
+			</svg>
+		</div>
+	</header>
+	<main>
+		<sections class="seccion1">
+			<h2 class="TituloInfoAlumno">Información Del Alumno</h2>
+			<div class="FotoMia">
+				<img src="img/io transparente.png" width="450" height="480">
+
+			</div>
+			<div>
+				<div class="InfoCompleta">
+					<h2 class="Info"><span>▢</span>Estudiante de Lic. en Sistemas Computacionales</h2>
+					<h2 class="Info"><span>▢</span>Nombre: Hector Ethan Lugo Mendoza</h2>
+					<h2 class="Info"><span>▢</span>Matricula: 1192271</h2>
+					<h2 class="Info"><span>▢</span>Grupo: 101</h2>
+					<h2 class="Info"><span>▢</span>Correo de Contacto: hector.lugo@uabc.edu.mx</h2>
+				</div>
+			</div>
+		</sections>
+		<section class="seccion2">
+			<div class="Acceso a Practicas">
+				<h2 class="TituloPracticasDeLinux">
+					<center>Practicas de Linux</center>
+				</h2>
+				<div class="Container">
+					<img style="width: 1920px;" alt="Pinguino de Linux" src="img/pinguino.png">
+					<a class="boton-navegacion" href="pdl.html">Pr&aacute;cticas de Linux</a>
+				</div>
+			</div>
+		</section>
+	</main>
 </body>
 
 </html>
